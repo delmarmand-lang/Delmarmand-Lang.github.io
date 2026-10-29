@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio d'Armand Nathanaël Delmar, étudiant en informatique à HESTIM Casablanca. Découvrez son parcours, ses compétences et ses projets."
+    >
+
+    <meta name="theme-color" content="#080b14">
+
+    <title>Armand Nathanaël Delmar | Portfolio</title>
+
+    <!-- Icône du site -->
+    <link
+        rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='85'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E"
+    >
+
+    <!-- Polices Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icônes -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Arrière-plan décoratif -->
+    <div class="background-effects" aria-hidden="true">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar container" aria-label="Navigation principale">
+
+            <a href="#accueil" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                AD
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+
+                <li>
+                    <a href="#accueil" class="nav-link active">
+                        Accueil
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#apropos" class="nav-link">
+                        À propos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#competences" class="nav-link">
+                        Compétences
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projets" class="nav-link">
+                        Projets
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#parcours" class="nav-link">
+                        Parcours
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link nav-contact">
+                        Me contacter
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero section container" id="accueil">
+
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Étudiant en informatique
+                </div>
+
+                <p class="hero-greeting">
+                    Bonjour, je suis
+                </p>
+
+                <h1>
+                    Armand Nathanaël
+                    <span class="gradient-text">Delmar.</span>
+                </h1>
+
+                <h2 class="hero-subtitle">
+                    Étudiant en informatique.
+                    <br>
+                    <span id="typing-text">
+                        Futur ingénieur logiciel.
+                    </span>
+                </h2>
+
+                <p class="hero-description">
+                    Passionné par la technologie, le développement logiciel
+                    et la résolution de problèmes, je construis progressivement
+                    mes compétences pour transformer des idées en solutions
+                    numériques.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projets" class="button button-primary">
+                        Découvrir mes projets
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#apropos" class="button button-secondary">
+                        En savoir plus
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a
+                        href="https://www.linkedin.com/in/armand-delmar-5bab15402/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <!-- Remplace # par l'adresse de ton GitHub -->
+
+                    <a
+                        href="#"
+                        class="github-link"
+                        aria-label="GitHub"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a
+                        href="#contact"
+                        aria-label="E-mail"
+                    >
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                    <span class="social-separator"></span>
+
+                    <span class="social-caption">
+                        Casablanca, Maroc
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Carte de code décorative -->
+
+            <div class="hero-visual">
+
+                <div class="code-card">
+
+                    <div class="code-header">
+
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span class="code-filename">
+                            about-me.js
+                        </span>
+
+                        <i class="fa-solid fa-code"></i>
+
+                    </div>
+
+                    <div class="code-body">
+
+                        <div class="code-line">
+                            <span class="line-number">01</span>
+                            <code>
+                                <span class="code-purple">const</span>
+                                <span class="code-blue"> developer</span>
+                                =
+                                <span class="code-orange"> {</span>
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">02</span>
+                            <code>
+                                &nbsp;&nbsp;name:
+                                <span class="code-green">
+                                    "Armand Nathanaël Delmar"
+                                </span>,
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">03</span>
+                            <code>
+                                &nbsp;&nbsp;field:
+                                <span class="code-green">
+                                    "Computer Science"
+                                </span>,
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">04</span>
+                            <code>
+                                &nbsp;&nbsp;location:
+                                <span class="code-green">
+                                    "Casablanca"
+                                </span>,
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">05</span>
+                            <code>
+                                &nbsp;&nbsp;mindset:
+                                <span class="code-green">
+                                    "Always learning"
+                                </span>,
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">06</span>
+                            <code>
+                                &nbsp;&nbsp;goal:
+                                <span class="code-green">
+                                    "Build useful things"
+                                </span>
+                            </code>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">07</span>
+                            <code>
+                                <span class="code-orange">};</span>
+                            </code>
+                        </div>
+
+                        <div class="code-line code-comment-line">
+                            <span class="line-number">08</span>
+                            <code>
+                                <span class="code-comment">
+                                    // Learning by building.
+                                </span>
+                            </code>
+                        </div>
+
+                    </div>
+
+                    <div class="code-footer">
+
+                        <span>
+                            <i class="fa-solid fa-circle-check"></i>
+                            JavaScript
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-code-branch"></i>
+                            Portfolio
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-badge badge-top">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    Curiosité
+                </div>
+
+                <div class="floating-badge badge-bottom">
+                    <i class="fa-solid fa-terminal"></i>
+                    Learn. Build. Improve.
+                </div>
+
+            </div>
+
+
+            <a href="#apropos" class="scroll-indicator">
+
+                <span>Faire défiler</span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section container" id="apropos">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    01 — À PROPOS
+                </span>
+
+                <h2>
+                    Apprendre aujourd'hui,
+                    <span class="gradient-text">
+                        construire demain.
+                    </span>
+                </h2>
+
+                <p>
+                    La technologie est un domaine dans lequel je souhaite
+                    apprendre, expérimenter et évoluer continuellement.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card about-main-card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-user-astronaut"></i>
+                    </div>
+
+                    <h3>Qui suis-je ?</h3>
+
+                    <p>
+                        Je suis Armand Delmar, étudiant en première année
+                        de cycle préparatoire informatique à HESTIM School,
+                        à Casablanca.
+                    </p>
+
+                    <p>
+                        Je m'intéresse à la programmation, à la conception
+                        d'applications et aux nouvelles technologies.
+                        Mon objectif est de consolider mes bases en
+                        informatique en réalisant des projets concrets.
+                    </p>
+
+                    <p>
+                        Je considère chaque projet comme une occasion
+                        d'apprendre, de tester mes idées et d'améliorer
+                        ma manière de résoudre les problèmes.
+                    </p>
+
+                </div>
+
+
+                <div class="about-side">
+
+                    <article class="about-card">
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <h3>Formation</h3>
+
+                        <p>
+                            Cycle préparatoire informatique
+                        </p>
+
+                        <span class="muted-text">
+                            HESTIM School · Casablanca
+                        </span>
+
+                    </article>
+
+
+                    <article class="about-card">
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+
+                        <h3>Objectif</h3>
+
+                        <p>
+                            Développer des compétences solides en
+                            informatique et créer des solutions utiles.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section container" id="competences">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    02 — COMPÉTENCES
+                </span>
+
+                <h2>
+                    Les outils pour
+                    <span class="gradient-text">
+                        donner vie aux idées.
+                    </span>
+                </h2>
+
+                <p>
+                    Les technologies que j'apprends et les outils que
+                    j'utilise pour développer mes projets.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <div class="skill-icon html-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        Structuration de pages web et organisation
+                        du contenu.
+                    </p>
+
+                    <span class="skill-status">
+                        Fondamentaux à consolider
+                    </span>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon css-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                    <h3>CSS3</h3>
+
+                    <p>
+                        Mise en page, responsive design et
+                        personnalisation des interfaces.
+                    </p>
+
+                    <span class="skill-status">
+                        En apprentissage
+                    </span>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon js-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Découverte de la programmation et ajout
+                        d'interactions aux sites web.
+                    </p>
+
+                    <span class="skill-status">
+                        En apprentissage
+                    </span>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-icon git-icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+
+                    <h3>Git & GitHub</h3>
+
+                    <p>
+                        Gestion des versions et organisation
+                        du code source.
+                    </p>
+
+                    <span class="skill-status">
+                        À développer
+                    </span>
+
+                </article>
+
+            </div>
+
+
+            <div class="skills-note">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    Cette liste est une base de départ.
+                    Garde uniquement les technologies et les compétences
+                    que tu as réellement étudiées ou utilisées.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section container" id="projets">
+
+            <div class="section-heading projects-heading">
+
+                <div>
+
+                    <span class="section-label">
+                        03 — PROJETS
+                    </span>
+
+                    <h2>
+                        Transformer les idées
+                        <span class="gradient-text">
+                            en projets.
+                        </span>
+                    </h2>
+
+                </div>
+
+                <span class="project-count">
+                    PROJETS & APPRENTISSAGE
+                </span>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- Projet 1 : portfolio -->
+
+                <article class="project-card">
+
+                    <div class="project-visual portfolio-visual">
+
+                        <div class="mini-window">
+
+                            <div class="mini-window-header">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="mini-window-content">
+
+                                <div class="mini-avatar">
+                                    AD
+                                </div>
+
+                                <div class="mini-lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="mini-blocks">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <span class="project-number">
+                            PROJECT_01
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span>Développement web</span>
+                            <span>Personnel</span>
+                        </div>
+
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            Un portfolio personnel conçu pour présenter
+                            mon parcours, mes compétences et mes projets
+                            dans une interface moderne et responsive.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#accueil" class="project-link">
+
+                            Voir le portfolio
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Projet 2 : aéroport intelligent -->
+
+                <article class="project-card">
+
+                    <div class="project-visual airport-visual">
+
+                        <div class="airport-circle circle-one"></div>
+                        <div class="airport-circle circle-two"></div>
+                        <div class="airport-circle circle-three"></div>
+
+                        <div class="airport-center">
+
+                            <i class="fa-solid fa-plane-departure"></i>
+
+                        </div>
+
+                        <div class="airport-node node-one">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+
+                        <div class="airport-node node-two">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+
+                        <div class="airport-node node-three">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <span class="project-number">
+                            CONCEPT_02
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+                            <span>Informatique & innovation</span>
+                            <span>Concept</span>
+                        </div>
+
+                        <h3>Smart Airport</h3>
+
+                        <p>
+                            Concept académique autour d'un aéroport intelligent :
+                            utilisation potentielle de l'IA, des données et
+                            de capteurs pour améliorer la gestion des flux
+                            de passagers et l'efficacité énergétique.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>IA</span>
+                            <span>Big Data</span>
+                            <span>IoT</span>
+
+                        </div>
+
+                        <a href="#contact" class="project-link">
+
+                            En savoir plus
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <p class="projects-disclaimer">
+
+                Le projet Smart Airport est présenté comme un concept
+                académique. Adapte sa description à l'avancement réel
+                de ton travail.
+
+            </p>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="section container" id="parcours">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    04 — PARCOURS
+                </span>
+
+                <h2>
+                    Mon parcours
+                    <span class="gradient-text">
+                        académique.
+                    </span>
+                </h2>
+
+                <p>
+                    Une formation pour développer progressivement
+                    mes connaissances en informatique.
+                </p>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            EN COURS
+                        </span>
+
+                        <h3>
+                            Cycle préparatoire informatique
+                        </h3>
+
+                        <h4>
+                            HESTIM School · Casablanca, Maroc
+                        </h4>
+
+                        <p>
+                            Développement des bases scientifiques,
+                            informatiques et méthodologiques nécessaires
+                            à la poursuite d'études dans le domaine
+                            de l'ingénierie informatique.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-marker">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            APPRENTISSAGE CONTINU
+                        </span>
+
+                        <h3>
+                            Développement de projets personnels
+                        </h3>
+
+                        <h4>
+                            Apprentissage pratique
+                        </h4>
+
+                        <p>
+                            Création de pages web, exploration des
+                            technologies numériques et amélioration
+                            progressive de mes compétences techniques.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section container" id="contact">
+
+            <div class="contact-card">
+
+                <div class="contact-decoration" aria-hidden="true">
+                    &lt;/&gt;
+                </div>
+
+                <span class="section-label">
+                    05 — CONTACT
+                </span>
+
+                <h2>
+                    Une idée, un projet ?
+                    <br>
+
+                    <span class="gradient-text">
+                        Discutons-en.
+                    </span>
+                </h2>
+
+                <p>
+                    Je suis intéressé par les échanges autour de
+                    l'informatique, du développement et des nouvelles
+                    technologies.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="https://www.linkedin.com/in/armand-delmar-5bab15402/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary"
+                    >
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                        Me retrouver sur LinkedIn
+
+                    </a>
+
+                    <!-- Remplace cette adresse par ton véritable e-mail -->
+
+                    <a
+                        href="mailto:ton.email@example.com"
+                        class="button button-secondary"
+                    >
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        M'envoyer un e-mail
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#accueil" class="logo">
+
+                <span class="logo-bracket">&lt;</span>
+                AD
+                <span class="logo-bracket">/&gt;</span>
+
+            </a>
+
+            <p>
+                Conçu et développé par Armand Delmar.
+            </p>
+
+            <a href="#accueil" class="back-to-top">
+
+                Retour en haut
+
+                <i class="fa-solid fa-arrow-up"></i>
+
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="current-year"></span>
+                Armand Nathanaël Delmar. Tous droits réservés.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+</body>
+</html>
